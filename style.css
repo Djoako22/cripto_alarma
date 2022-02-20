@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#cripto {
+    position: relative;
+    overflow: hidden;
+}
+
+#cripto:hover {
+    overflow: visible;
+}
+
+.cripto {
+    position: sticky;
+    z-index: 1;
+}
+
+.opciones {
+    visibility: hidden;
+    position: absolute;
+    margin-top: -4px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    z-index: 0;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+button,
+.btn_restablecer {
+    background-color: #343434;
+    color: #fff;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    font-size: small;
+}
+
+button:active {
+    background-color: #50ff8a;
+}
+
+.btn_restablecer {
+    background-color: #f8a134;
+}
+
+.btn_restablecer:active {
+    background-color: rgb(255, 0, 25);
+}
+
+input,
+.opcion {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.opcion {
+    cursor: pointer;
+}
+
+.opcion:hover {
+    background-color: #eee;
+}
